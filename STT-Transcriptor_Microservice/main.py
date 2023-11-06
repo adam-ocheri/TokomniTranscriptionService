@@ -1,14 +1,11 @@
 import requests
-from flask import Flask, send_file
-from custom_transcriptor import (
-    conversation_transcription,
-    meeting_transcription_differentiate_speakers,
-)
+
+# from flask import Flask, send_file
 from sound_utils import AudioUtils
 from custom_transcription import run
 from pathlib import Path
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 
 # @app.route("/get_audio/<path:filename>", methods=["GET"])
@@ -16,32 +13,36 @@ app = Flask(__name__)
 #     return send_file(filename, mimetype="audio/mpeg")
 
 
-def transcribe_audio():
-    meeting_transcription_differentiate_speakers()
+response = requests.get(
+    "http://localhost:5000/start_transcription_job/conversation-test-02.wav"
+)
 
+audio_file_service_person = response.json().get("conversationPart_servicePerson_url")
+audio_file_business_client = response.json()["conversationPart_businessClient_url"]
 
-audio_file_link = "https://tokomni-tesst-bucket.s3.eu-central-1.amazonaws.com/conversation-test.wav?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDGV1LWNlbnRyYWwtMSJHMEUCICIKucG7k3WSTMahyz7%2FB%2BXd3087ArtkphOTqeM38%2BlOAiEA%2F9ZQJFQdHjmsnvbJHLIah1IlrMQZ%2BL%2FhCT3JonE8ELUqgQMIKxAAGgwwMjEyNDk4NzU4NjEiDBgHUMNdrgDAmyNnmireAnWeaEQOELEiOPabynAO4Cu9EQTX9IU%2B6Hwd9wH%2BZvzPiwyzVQ6DUxRT%2Fp22%2Br8daTqqfZRbyYw5rDOou%2F7EzJpv9kr9BDIt9WU8a1Q5%2BwcIw%2FxjQ4k7PwL6xy%2FqeLOzlVq9p8oQ%2Fwk%2Fe72qBcTLdnaBOdt636NFc6GJ5VwivPwj8uXpz9PhVa6u0NmYwjlB8bzO1GVyeu1yLaj%2FW3pJi%2BxDITB3tNwAmP7xzgZ19lmjSa6hIwp28pfgyDjpTWzFB9srRNxwAgr66jw8UFA%2FZB2QiN33IQp%2FLBBfPzJxhaWQ0iaUwZfMoEvTBTSCFsxyI0A6ard8%2BfFojCPtvgzln16zXMXfBhoYX%2BsmCE5v8IGHUC6WAnpMY%2FsepvujwgFHiJQgGcbXlwQwRudhhiKGXuicsvBRMNosr6t6Oi8XlQZxh81k9f9vwZld%2FNAb%2FxriYpc%2BAnEAFBTJRF4BngQvMK7tjaoGOrMC2GrCGTcRPDdXMFRY%2B1r6CPA6SOPqHm5oASMypUk6Ti03K40tEOJ6cnJp%2FgW6awYOd8UpUrGg9L8bp5cI%2B8nfq7cu%2BaJiK9VZnbqD4D0idyMfRglH%2FacKkwT96BLBVNlK3yx3xMu4S0NZ1CHsYCQud4dGXrId2AkPVBSovQj73onZyRFUAcl3I5KRl2uDRiwJ1Z1pFSCKoNsMaEZeNkhxJRckpOJF1Dm2qoVt74YOIno4ygPfuDQaYlm3cf2waTiiX8B2vHzwleb76oIaK7rI3YAMfktZY9%2FtA6IArtJrDip%2F7Ajms0Rl46R%2FwrccWzj4I3UlwUizS0%2FqdIxxJ302BBNMDxNb%2FTSkqiWVcKp4DpIopgs9A8Yo9uVSO%2BgQUAG8REnPF7rqLmCsnntaZ0A95OnHVQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231102T101648Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Credential=ASIAQJ4UXL6KQ55K6WFI%2F20231102%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=804b5c357170d301f684dba573764f38a8822e15cfa5db900427322a1d051b77"
-speech_key = ""
-language_key = ""
-region = "northeurope"
+print("FINAL URLS: ", audio_file_service_person, audio_file_business_client)
 
-# -------------------------------
-# NOTE: TODO Elswhere
+# test_file_01 = "https://tokomni-tesst-bucket.s3.eu-central-1.amazonaws.com/c0_service-personconversation-test-02.wav?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaDGV1LWNlbnRyYWwtMSJGMEQCIAUMaNMCKlCeTnc6PPRRW6PC9rKSxgrAmv1blxKC6peMAiB2U9TZ6fAocQVmFoaTg9kgT4jFPxJ9dzUEJIRzk5o1xSqKAwiJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAyMTI0OTg3NTg2MSIMpqPRnSmudOIb6CC3Kt4CwaHfnp57dcCqdY7otkdnsqXgNxlcqcE1l9FCIorl%2FVDBaO1G%2FOlylG1Jtf16VTwX9WRECFPqnw4qtkVH5Ppld68bYQZncihVypm8L4jarLcJtKCiDeRPjFgKRTtBjBXhDLwi4xec3LrDLF2vnkfo1hVPqQlEStWJw2DaELxQnn0tW1IG%2F%2BzE3VACtn22%2Bh3plC54Ayu3YLmvNkQFr0LMEPEahqMVvXq9%2BLz7wPHobipEIMrybEPpa6CSO0%2BQWATdPOQ2tAuyh845TKJM7pWcxALJyxo5kK7yJtLIYkpHDu9gpnNF%2FZLOp%2FXL%2BIJm6Q1R0a2co6RS5Y0ipT%2BXSXh9%2BQ6gNX2y472GsCnkm9Fe0xQfdxlkdw47rTAgbt%2FbdOyejgWuCpFGaXA5cQlGrTThg1pF%2BBtml%2BGLAYKvG5XO6B6GiFlUNrcfWwblpFyvyCxW%2FuHYQ8mKUce457ReNZ0whrCiqgY6tAJROkIhgzXBcQGL%2BcdHFkjuLt1JcswIUUwX8EftUQkHtG6oY2A7BubWYrDU2rSMhbSKFAF%2BzxNqXA8H7s9RtbHcHz9EY4Cb1INcmRv%2FG7pqG3d%2BFsxtfDGXLUw7bhf6BdszRXYI8%2BWmAh9pOXpcmfbjDM%2FigfVE5t%2FEVT3JjUa3BKYSoM%2BzyhKWdsbN%2FxdFGKNAnGcVqRGAKiUI1umc7rNDW%2BrVmQ5cKGKwSAde0wspzs4p8ntU%2FlKF0roGIg9teMjck7SSDJDQxAAvsg3hVWBt%2BJh9x1IuEjkhE42u9oJv%2BJk0m1s7rWAdzV5Sudz34yyS3aMdUs6LaJayeoukq8jxE7UR9X%2Fd9%2FY8AVTx3t97oV%2Fz3kMeLLLBbmXuUlf9%2BhDQfi0YEtOa2iHwJ8O6sc6V2G3vYg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231106T102053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Credential=ASIAQJ4UXL6KQEBR53MO%2F20231106%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=79057b58751f113729934288f4481c69240dcc7a7f48d72b65fee1ae3b94f856"
 
-# file = Path("conversation-test.mp3")
-# directory = Path("audio_processed")
+transcription_data_service_person = run(
+    audio_file_service_person, "Output_service_person.json"
+)
+transcription_data_business_client = run(
+    audio_file_business_client, "Output_business_client.json"
+)
 
-# audio_files = AudioUtils.split_audio_file_to_mono_files(file, directory)
+print(
+    "TRANSCRIPTION COMPLETED: ",
+    transcription_data_service_person["transcription"],
+    transcription_data_business_client["transcription"],
+)
+# TODO: merge the 2 transcriptions together, based on speaker and timestamps
+# TODO: return the transcribed conversation to the file server, and store it in DB
 
-# print("Audio Files: ", audio_files[0], audio_files[1])
+# Features - Models - Pricing
 
-# a1 = audio_files[0]
-# a2 = audio_files[1]
-# -------------------------------
+# run(audio_file_link)
 
-response = requests.get("http://localhost:5000/get_audio/conversation-test.wav")
-# run(response.json()["url"])
-run(audio_file_link)
 # print(response.json())
 # run(response.json())
 # if __name__ == "__main__":

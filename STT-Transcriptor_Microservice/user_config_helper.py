@@ -71,7 +71,7 @@ def user_config_from_args(usage: str) -> helper.Read_Only_Dict:
 
     return helper.Read_Only_Dict(
         {
-            "use_stereo_audio": True,  # cmd_option_exists("--stereo"),
+            "use_stereo_audio": False,  # cmd_option_exists("--stereo"),
             "language": language,
             "locale": locale,
             "input_audio_url": "",  # input_audio_url,  # input_audio_url,

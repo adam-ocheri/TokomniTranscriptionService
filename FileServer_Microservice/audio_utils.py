@@ -29,7 +29,7 @@ class AudioSource:
     def __init__(self, filename=None):
         self.audio_channel__service_person = None
         self.audio_channel__business_client = None
-
+        print("TRYING TO INITIALIZE AUDIO SOURCE.........................\n")
         if filename is not None:
             self.filename = Path(filename)
         else:
@@ -48,6 +48,7 @@ class AudioSource:
             self.filename, self.directory
         )
 
+        print("AUDIO FILES: ", audio_files)
         print("Audio Files: ", audio_files[0], audio_files[1])
 
         self.audio_channel__service_person = audio_files[0]

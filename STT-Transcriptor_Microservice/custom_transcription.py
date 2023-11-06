@@ -97,7 +97,7 @@ def create_transcription(user_config: helper.Read_Only_Dict) -> str:
         "contentUrls": [user_config["input_audio_url"]],
         "properties": {
             "useStereoAudio": True,
-            "diarizationEnabled": not user_config["use_stereo_audio"],
+            "diarizationEnabled": False,  # not user_config["use_stereo_audio"],
             "timeToLive": "PT30M",
         },
         "locale": user_config["locale"],
@@ -234,6 +234,23 @@ def delete_transcription(
     )
 
 
+# def get_sentiments_helper(
+#     documents: List[Dict], user_config: helper.Read_Only_Dict
+# ) -> Dict:
+#     uri = f"https://{user_config['language_endpoint']}{SENTIMENT_ANALYSIS_PATH}{SENTIMENT_ANALYSIS_QUERY}"
+#     content = {
+#         "kind": "SentimentAnalysis",
+#         "analysisInput": {"documents": documents},
+#     }
+#     response = rest_helper.send_post(
+#         uri=uri,
+#         content=content,
+#         key=user_config["language_subscription_key"],
+#         expected_status_codes=[HTTPStatus.OK],
+#     )
+#     return response["json"]["results"]["documents"]
+
+
 def get_sentiments_helper(
     documents: List[Dict], user_config: helper.Read_Only_Dict
 ) -> Dict:
@@ -248,7 +265,30 @@ def get_sentiments_helper(
         key=user_config["language_subscription_key"],
         expected_status_codes=[HTTPStatus.OK],
     )
-    return response["json"]["results"]["documents"]
+
+    # Ensure that sentiment analysis results are aligned with documents by filling missing results with default values
+    results = response["json"]["results"]["documents"]
+    for document in documents:
+        found = False
+        for result in results:
+            if result["id"] == document["id"]:
+                found = True
+                break
+        if not found:
+            # If sentiment analysis result is missing, fill with default values
+            results.append(
+                {
+                    "id": document["id"],
+                    "sentiment": "Unknown",
+                    "confidenceScores": {
+                        "positive": 0.0,
+                        "neutral": 0.0,
+                        "negative": 0.0,
+                    },
+                }
+            )
+
+    return results
 
 
 def get_sentiment_analysis(
@@ -314,8 +354,8 @@ def merge_sentiment_confidence_scores_into_transcription(
 ) -> Dict:
     for id, phrase in enumerate(transcription["recognizedPhrases"]):
         for best_item in phrase["nBest"]:
-            if len(sentiment_confidence_scores) < id:
-                best_item["sentiment"] = sentiment_confidence_scores[id]
+            best_item["sentiment"] = sentiment_confidence_scores[id]
+
     return transcription
 
 
@@ -568,7 +608,7 @@ def print_full_output(
         f.write(dumps(results, indent=2, ensure_ascii=False))
 
 
-def run(audio_url) -> None:
+def run(audio_url, output_file) -> None:
     print("Transcription Service Online")
     usage = """python main.py [...]
 
@@ -604,26 +644,30 @@ def run(audio_url) -> None:
     else:
         user_config = user_config_helper.user_config_from_args(usage)
         user_config.__setitem__("input_audio_url", audio_url)
+        user_config.__setitem__("output_file_path", output_file)
 
         transcription: Dict
         transcription_id: str
+
         # if user_config["input_file_path"] is not None:
         #     with open(user_config["input_file_path"], mode="r") as f:
         #         transcription = loads(f.read())
+
         if user_config["input_audio_url"] is not None:
             # How to use batch transcription:
             # https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/cognitive-services/Speech-Service/batch-transcription.md
             transcription_id = create_transcription(user_config)
-            print("Starting Transcription...", transcription_id)
+            print("Starting Transcription... | Transcription ID: ", transcription_id)
             wait_for_transcription(transcription_id, user_config)
-            print(f"Transcription ID: {transcription_id}")
+            print(f"Waiting... Transcription ID: {transcription_id}")
             transcription_files = get_transcription_files(transcription_id, user_config)
             transcription_uri = get_transcription_uri(transcription_files, user_config)
-            print(f"Transcription URI: {transcription_uri}")
+            print(f"Transcription COMPLETED | Transcription URI: {transcription_uri}")
             transcription = get_transcription(transcription_uri)
-        else:  # this block is responsible for post-processing the generated text
+        else:
             raise Exception(f"Missing input audio URL.{linesep}{usage}")
         # For stereo audio, the phrases are sorted by channel number, so resort them by offset.
+        # this block is responsible for post-processing the generated text
         transcription["recognizedPhrases"] = sorted(
             transcription["recognizedPhrases"],
             key=lambda phrase: phrase["offsetInTicks"],
@@ -648,6 +692,7 @@ def run(audio_url) -> None:
         # print_simple_output(
         #     phrases, sentiment_analysis_results, conversation_analysis, user_config
         # )
+
         if user_config["output_file_path"] is not None:
             print_full_output(
                 user_config["output_file_path"],
@@ -656,6 +701,7 @@ def run(audio_url) -> None:
                 phrases,
                 # conversation_analysis,
             )
+        return transcription, phrases
 
 
 # run()
