@@ -701,7 +701,7 @@ def run(audio_url, output_file) -> None:
                 phrases,
                 # conversation_analysis,
             )
-        return transcription, phrases
+        return {"transcription": transcription, "phrases": phrases}
 
 
 # run()

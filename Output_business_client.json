@@ -1,34 +1,121 @@
 {
   "transcription": {
-    "source": "https://tokomni-tesst-bucket.s3.amazonaws.com/conversation-test-02.wav?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQJ4UXL6KSWEY7REM%2F20231106%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20231106T114728Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=18062983b3ed5d97523659fc1c3e833d089823a9954e4233ae956bcb62d57a64",
-    "timestamp": "2023-11-06T11:48:13Z",
-    "durationInTicks": 806700000,
-    "duration": "PT1M20.67S",
+    "source": "https://tokomni-tesst-bucket.s3.eu-central-1.amazonaws.com/c1_business-clientconversation-test-02.wav?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaDGV1LWNlbnRyYWwtMSJGMEQCIAUMaNMCKlCeTnc6PPRRW6PC9rKSxgrAmv1blxKC6peMAiB2U9TZ6fAocQVmFoaTg9kgT4jFPxJ9dzUEJIRzk5o1xSqKAwiJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAyMTI0OTg3NTg2MSIMpqPRnSmudOIb6CC3Kt4CwaHfnp57dcCqdY7otkdnsqXgNxlcqcE1l9FCIorl%2FVDBaO1G%2FOlylG1Jtf16VTwX9WRECFPqnw4qtkVH5Ppld68bYQZncihVypm8L4jarLcJtKCiDeRPjFgKRTtBjBXhDLwi4xec3LrDLF2vnkfo1hVPqQlEStWJw2DaELxQnn0tW1IG%2F%2BzE3VACtn22%2Bh3plC54Ayu3YLmvNkQFr0LMEPEahqMVvXq9%2BLz7wPHobipEIMrybEPpa6CSO0%2BQWATdPOQ2tAuyh845TKJM7pWcxALJyxo5kK7yJtLIYkpHDu9gpnNF%2FZLOp%2FXL%2BIJm6Q1R0a2co6RS5Y0ipT%2BXSXh9%2BQ6gNX2y472GsCnkm9Fe0xQfdxlkdw47rTAgbt%2FbdOyejgWuCpFGaXA5cQlGrTThg1pF%2BBtml%2BGLAYKvG5XO6B6GiFlUNrcfWwblpFyvyCxW%2FuHYQ8mKUce457ReNZ0whrCiqgY6tAJROkIhgzXBcQGL%2BcdHFkjuLt1JcswIUUwX8EftUQkHtG6oY2A7BubWYrDU2rSMhbSKFAF%2BzxNqXA8H7s9RtbHcHz9EY4Cb1INcmRv%2FG7pqG3d%2BFsxtfDGXLUw7bhf6BdszRXYI8%2BWmAh9pOXpcmfbjDM%2FigfVE5t%2FEVT3JjUa3BKYSoM%2BzyhKWdsbN%2FxdFGKNAnGcVqRGAKiUI1umc7rNDW%2BrVmQ5cKGKwSAde0wspzs4p8ntU%2FlKF0roGIg9teMjck7SSDJDQxAAvsg3hVWBt%2BJh9x1IuEjkhE42u9oJv%2BJk0m1s7rWAdzV5Sudz34yyS3aMdUs6LaJayeoukq8jxE7UR9X%2Fd9%2FY8AVTx3t97oV%2Fz3kMeLLLBbmXuUlf9%2BhDQfi0YEtOa2iHwJ8O6sc6V2G3vYg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231106T115332Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Credential=ASIAQJ4UXL6KQEBR53MO%2F20231106%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=6072280f28f7c1920f0f8c7d620cdcc20241e88ffe0659e74e64a322902fa49f",
+    "timestamp": "2023-11-06T14:58:55Z",
+    "durationInTicks": 807500000,
+    "duration": "PT1M20.75S",
     "combinedRecognizedPhrases": [
       {
         "channel": 0,
-        "lexical": "כתוב נכון את יודעת מה איי פי של האינטרקום את יודעת מה איי טי של האיברום כמה זמן אוקיי כתוב כן קט קטע של הממשק כן סוגריים אפס כן או קי נכון",
-        "itn": "כתוב נכון את יודעת מה איי פי של האינטרקום את יודעת מה איי טי של האיברום כמה זמן אוקיי כתוב כן קט קטע של הממשק כן סוגריים אפס כן או קי נכון",
-        "maskedITN": "כתוב נכון את יודעת מה איי פי של האינטרקום את יודעת מה איי טי של האיברום כמה זמן אוקיי כתוב כן קט קטע של הממשק כן ) אפס כן או קי נכון",
-        "display": "כתוב. נכון? את יודעת מה? איי פי של האינטרקום? את יודעת מה איי טי של האיברום? כמה זמן? אוקיי? כתוב. כן. קט. קטע. של הממשק. כן. ) אפס כן. או קי. נכון?"
-      },
-      {
-        "channel": 1,
-        "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט לא לי מה של מלווה מה הייתי שם רגע אני אבדוק רגע טוב לי פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח עשר נקודה אפס נקודה אפס נקודה נקודה",
-        "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט לא לי מה של מלווה מה הייתי שם רגע אני אבדוק רגע טוב לי פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח 10.0 נקודה אפס נקודה נקודה",
-        "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט לא לי מה של מלווה מה הייתי שם רגע אני אבדוק רגע טוב לי פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח 10.0  אפס ..",
-        "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם, ואז אני צריכה להתקשר אליכם שוב. כדי שתחברו את האינטרנט. לא? לי מה של מלווה, מה הייתי שם? רגע, אני אבדוק רגע, טוב לי פעם. רגע. קשה מצאתי. יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם, לא חיברתם אותו, לא הצלקתם לחבר אותו. יש לנו מצב, יש את האינטרנט. ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון, אבל גם היינו רואים מי נמצא בחוץ. מי הגיע? ברגע שהתחברנו לעומק טלקום, אתם חיברתם את הטלפון. אנחנו פותחים את הדלת עם המכה שלפת, אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות. את רוצה איתנו? את הכומרת אינטרנט של הממשק או של הלקח. 10.0. . אפס. .."
+        "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט איך לי מה של מלווה מה הייתי שם רגע אני אבדוק מי קו פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות את רוצה את אינטרנט של הממשק או של הלקח עשר נקודה אפס נקודה אפס נקודה תשעים נקודה למה",
+        "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט איך לי מה של מלווה מה הייתי שם רגע אני אבדוק מי קו פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות את רוצה את אינטרנט של הממשק או של הלקח 10.0 נקודה אפס נקודה 90 נקודה למה",
+        "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט איך לי מה של מלווה מה הייתי שם רגע אני אבדוק מי קו פעם רגע קשה מצאתי יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות את רוצה את אינטרנט של הממשק או של הלקח 10.0  אפס  90 למה",
+        "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם, ואז אני צריכה להתקשר אליכם שוב. כדי שתחברו את האינטרנט. איך? לי מה של מלווה, מה הייתי שם? רגע אני אבדוק מי קו פעם? רגע. קשה מצאתי. יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו. מהרגע שהתחברנו אליכם, לא חיברתם אותו, לא הצלקתם לחבר אותו. יש לנו מסע, יש את האינטרנט. ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון, אבל גם היינו רואים מי נמצא בחוץ. מי הגיע? ברגע שהתחברנו לעונג טלקום, אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס, אבל המסך נשאר כבי. מהרגע שהתחברנו אליכם, לא הצלחתם לחברות. את רוצה את אינטרנט של הממשק או של הלקח? 10.0. . אפס. . 90. למה?"
       }
     ],
     "recognizedPhrases": [
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT0S",
-        "duration": "PT1.96S",
-        "offsetInTicks": 0.0,
-        "durationInTicks": 19600000.0,
+        "offset": "PT0.67S",
+        "duration": "PT6.92S",
+        "offsetInTicks": 6700000.0,
+        "durationInTicks": 69200000.0,
         "nBest": [
+          {
+            "confidence": 0.7462559,
+            "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם, ואז אני צריכה להתקשר אליכם שוב. כדי שתחברו את האינטרנט.",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          },
+          {
+            "confidence": 0.7462559,
+            "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          },
+          {
+            "confidence": 0.7462559,
+            "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          },
+          {
+            "confidence": 0.7462559,
+            "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          },
+          {
+            "confidence": 0.7462559,
+            "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.98,
+              "negative": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT10.51S",
+        "duration": "PT0.12S",
+        "offsetInTicks": 105100000.0,
+        "durationInTicks": 1200000.0,
+        "nBest": [
+          {
+            "confidence": 0.2584679,
+            "lexical": "איך",
+            "itn": "איך",
+            "maskedITN": "איך",
+            "display": "איך?",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
+            }
+          },
+          {
+            "confidence": 0.056598812,
+            "lexical": "לא",
+            "itn": "לא",
+            "maskedITN": "לא",
+            "display": "לא",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
+            }
+          },
           {
             "confidence": 0.0,
             "lexical": "",
@@ -42,11 +129,11 @@
             }
           },
           {
-            "confidence": 0.018159281,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא",
+            "confidence": 0.2584679,
+            "lexical": "איך",
+            "itn": "איך",
+            "maskedITN": "איך",
+            "display": "איך",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -54,175 +141,11 @@
             }
           },
           {
-            "confidence": 0.019474799,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.019474799,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.019474799,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT0.63S",
-        "duration": "PT6.88S",
-        "offsetInTicks": 6300000.0,
-        "durationInTicks": 68800000.0,
-        "nBest": [
-          {
-            "confidence": 0.78462815,
-            "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם, ואז אני צריכה להתקשר אליכם שוב. כדי שתחברו את האינטרנט.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.78462815,
-            "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.78462815,
-            "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.78462815,
-            "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.78462815,
-            "lexical": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "itn": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "maskedITN": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "display": "כל מה שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT3.47S",
-        "duration": "PT0.2S",
-        "offsetInTicks": 34700000.0,
-        "durationInTicks": 2000000.0,
-        "nBest": [
-          {
-            "confidence": 0.025437826,
-            "lexical": "כתוב",
-            "itn": "כתוב",
-            "maskedITN": "כתוב",
-            "display": "כתוב.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02424636,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02424636,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02424636,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02424636,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
+            "confidence": 0.10041426,
+            "lexical": "לא איך",
+            "itn": "לא איך",
+            "maskedITN": "לא איך",
+            "display": "לא איך",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -234,429 +157,9 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT5.27S",
-        "duration": "PT0.2S",
-        "offsetInTicks": 52700000.0,
-        "durationInTicks": 2000000.0,
-        "nBest": [
-          {
-            "confidence": 0.0800982,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון?",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.0800982,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.0800982,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.0800982,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.0800982,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT6.36S",
-        "duration": "PT0.72S",
-        "offsetInTicks": 63600000.0,
-        "durationInTicks": 7200000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.023007054,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.023007054,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.023007054,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.023007054,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT8.5S",
-        "duration": "PT2.08S",
-        "offsetInTicks": 85000000.0,
-        "durationInTicks": 20800000.0,
-        "nBest": [
-          {
-            "confidence": 0.7259987,
-            "lexical": "את יודעת מה איי פי של האינטרקום",
-            "itn": "את יודעת מה איי פי של האינטרקום",
-            "maskedITN": "את יודעת מה איי פי של האינטרקום",
-            "display": "את יודעת מה? איי פי של האינטרקום?",
-            "sentiment": {
-              "positive": 0.21,
-              "neutral": 0.74,
-              "negative": 0.05
-            }
-          },
-          {
-            "confidence": 0.7259987,
-            "lexical": "את יודעת מה איי פי של האינטרקום",
-            "itn": "את יודעת מה איי פי של האינטרקום",
-            "maskedITN": "את יודעת מה איי פי של האינטרקום",
-            "display": "את יודעת מה איי פי של האינטרקום",
-            "sentiment": {
-              "positive": 0.21,
-              "neutral": 0.74,
-              "negative": 0.05
-            }
-          },
-          {
-            "confidence": 0.7259987,
-            "lexical": "את יודעת מה איי פי של האינטרקום",
-            "itn": "את יודעת מה איי פי של האינטרקום",
-            "maskedITN": "את יודעת מה איי פי של האינטרקום",
-            "display": "את יודעת מה איי פי של האינטרקום",
-            "sentiment": {
-              "positive": 0.21,
-              "neutral": 0.74,
-              "negative": 0.05
-            }
-          },
-          {
-            "confidence": 0.72599876,
-            "lexical": "את יודעת מה איי פי של האינטרקום",
-            "itn": "את יודעת מה איי פי של האינטרקום",
-            "maskedITN": "את יודעת מה איי פי של האינטרקום",
-            "display": "את יודעת מה איי פי של האינטרקום",
-            "sentiment": {
-              "positive": 0.21,
-              "neutral": 0.74,
-              "negative": 0.05
-            }
-          },
-          {
-            "confidence": 0.7259987,
-            "lexical": "את יודעת מה איי פי של האינטרקום",
-            "itn": "את יודעת מה איי פי של האינטרקום",
-            "maskedITN": "את יודעת מה איי פי של האינטרקום",
-            "display": "את יודעת מה איי פי של האינטרקום",
-            "sentiment": {
-              "positive": 0.21,
-              "neutral": 0.74,
-              "negative": 0.05
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT9.19S",
-        "duration": "PT0.36S",
-        "offsetInTicks": 91900000.0,
-        "durationInTicks": 3600000.0,
-        "nBest": [
-          {
-            "confidence": 0.6326759,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא?",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.6326759,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.6326759,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.6326759,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.6326759,
-            "lexical": "לא",
-            "itn": "לא",
-            "maskedITN": "לא",
-            "display": "לא",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT11S",
-        "duration": "PT1.08S",
-        "offsetInTicks": 110000000.0,
-        "durationInTicks": 10800000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.022097915,
-            "lexical": "אין",
-            "itn": "אין",
-            "maskedITN": "אין",
-            "display": "אין",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.019431278,
-            "lexical": "לג",
-            "itn": "לג",
-            "maskedITN": "לג",
-            "display": "לג",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02224317,
-            "lexical": "לגמרי",
-            "itn": "לגמרי",
-            "maskedITN": "לגמרי",
-            "display": "לגמרי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02224317,
-            "lexical": "לגמרי",
-            "itn": "לגמרי",
-            "maskedITN": "לגמרי",
-            "display": "לגמרי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT12.47S",
-        "duration": "PT2.2S",
-        "offsetInTicks": 124700000.0,
-        "durationInTicks": 22000000.0,
-        "nBest": [
-          {
-            "confidence": 0.7650434,
-            "lexical": "את יודעת מה איי טי של האיברום",
-            "itn": "את יודעת מה איי טי של האיברום",
-            "maskedITN": "את יודעת מה איי טי של האיברום",
-            "display": "את יודעת מה איי טי של האיברום?",
-            "sentiment": {
-              "positive": 0.02,
-              "neutral": 0.95,
-              "negative": 0.03
-            }
-          },
-          {
-            "confidence": 0.7650434,
-            "lexical": "את יודעת מה איי טי של האיברום",
-            "itn": "את יודעת מה איי טי של האיברום",
-            "maskedITN": "את יודעת מה איי טי של האיברום",
-            "display": "את יודעת מה איי טי של האיברום",
-            "sentiment": {
-              "positive": 0.02,
-              "neutral": 0.95,
-              "negative": 0.03
-            }
-          },
-          {
-            "confidence": 0.7650434,
-            "lexical": "את יודעת מה איי טי של האיברום",
-            "itn": "את יודעת מה איי טי של האיברום",
-            "maskedITN": "את יודעת מה איי טי של האיברום",
-            "display": "את יודעת מה איי טי של האיברום",
-            "sentiment": {
-              "positive": 0.02,
-              "neutral": 0.95,
-              "negative": 0.03
-            }
-          },
-          {
-            "confidence": 0.7650434,
-            "lexical": "את יודעת מה איי טי של האיברום",
-            "itn": "את יודעת מה איי טי של האיברום",
-            "maskedITN": "את יודעת מה איי טי של האיברום",
-            "display": "את יודעת מה איי טי של האיברום",
-            "sentiment": {
-              "positive": 0.02,
-              "neutral": 0.95,
-              "negative": 0.03
-            }
-          },
-          {
-            "confidence": 0.7650434,
-            "lexical": "את יודעת מה איי טי של האיברום",
-            "itn": "את יודעת מה איי טי של האיברום",
-            "maskedITN": "את יודעת מה איי טי של האיברום",
-            "display": "את יודעת מה איי טי של האיברום",
-            "sentiment": {
-              "positive": 0.02,
-              "neutral": 0.95,
-              "negative": 0.03
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT13.04S",
+        "offset": "PT13.16S",
         "duration": "PT1.76S",
-        "offsetInTicks": 130400000.0,
+        "offsetInTicks": 131600000.0,
         "durationInTicks": 17600000.0,
         "nBest": [
           {
@@ -667,56 +170,56 @@
             "display": "",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.020523652,
+            "confidence": 0.024270883,
             "lexical": "שלום",
             "itn": "שלום",
             "maskedITN": "שלום",
             "display": "שלום",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.020523652,
+            "confidence": 0.024270883,
             "lexical": "שלום",
             "itn": "שלום",
             "maskedITN": "שלום",
             "display": "שלום",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.019163426,
-            "lexical": "לג",
-            "itn": "לג",
-            "maskedITN": "לג",
-            "display": "לג",
+            "confidence": 0.024270883,
+            "lexical": "שלום",
+            "itn": "שלום",
+            "maskedITN": "שלום",
+            "display": "שלום",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.018934853,
-            "lexical": "של",
-            "itn": "של",
-            "maskedITN": "של",
-            "display": "של",
+            "confidence": 0.024270883,
+            "lexical": "שלום",
+            "itn": "שלום",
+            "maskedITN": "שלום",
+            "display": "שלום",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "neutral": 0.95,
+              "negative": 0.04
             }
           }
         ]
@@ -724,83 +227,13 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT15.56S",
-        "duration": "PT1.68S",
-        "offsetInTicks": 155600000.0,
-        "durationInTicks": 16800000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.92,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.027155165,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.92,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.027155165,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.92,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.027155165,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.92,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.027155165,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.92,
-              "negative": 0.07
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT16.73S",
+        "offset": "PT16.76S",
         "duration": "PT1.72S",
-        "offsetInTicks": 167300000.0,
+        "offsetInTicks": 167600000.0,
         "durationInTicks": 17200000.0,
         "nBest": [
           {
-            "confidence": 0.44942886,
+            "confidence": 0.40264148,
             "lexical": "לי מה של מלווה מה הייתי שם",
             "itn": "לי מה של מלווה מה הייתי שם",
             "maskedITN": "לי מה של מלווה מה הייתי שם",
@@ -812,7 +245,7 @@
             }
           },
           {
-            "confidence": 0.44942886,
+            "confidence": 0.40264148,
             "lexical": "לי מה של מלווה מה הייתי שם",
             "itn": "לי מה של מלווה מה הייתי שם",
             "maskedITN": "לי מה של מלווה מה הייתי שם",
@@ -824,7 +257,7 @@
             }
           },
           {
-            "confidence": 0.44942886,
+            "confidence": 0.40264148,
             "lexical": "לי מה של מלווה מה הייתי שם",
             "itn": "לי מה של מלווה מה הייתי שם",
             "maskedITN": "לי מה של מלווה מה הייתי שם",
@@ -836,7 +269,7 @@
             }
           },
           {
-            "confidence": 0.44942886,
+            "confidence": 0.40264148,
             "lexical": "לי מה של מלווה מה הייתי שם",
             "itn": "לי מה של מלווה מה הייתי שם",
             "maskedITN": "לי מה של מלווה מה הייתי שם",
@@ -848,7 +281,7 @@
             }
           },
           {
-            "confidence": 0.44942886,
+            "confidence": 0.40264148,
             "lexical": "לי מה של מלווה מה הייתי שם",
             "itn": "לי מה של מלווה מה הייתי שם",
             "maskedITN": "לי מה של מלווה מה הייתי שם",
@@ -864,157 +297,17 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT18.86S",
-        "duration": "PT0.92S",
-        "offsetInTicks": 188600000.0,
-        "durationInTicks": 9200000.0,
-        "nBest": [
-          {
-            "confidence": 0.265903,
-            "lexical": "כמה זמן",
-            "itn": "כמה זמן",
-            "maskedITN": "כמה זמן",
-            "display": "כמה זמן?",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.18855135,
-            "lexical": "כמה זמן זה",
-            "itn": "כמה זמן זה",
-            "maskedITN": "כמה זמן זה",
-            "display": "כמה זמן זה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.18685505,
-            "lexical": "כמה זמן אתה",
-            "itn": "כמה זמן אתה",
-            "maskedITN": "כמה זמן אתה",
-            "display": "כמה זמן אתה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.15184581,
-            "lexical": "כמה זמן אתה ממשיך",
-            "itn": "כמה זמן אתה ממשיך",
-            "maskedITN": "כמה זמן אתה ממשיך",
-            "display": "כמה זמן אתה ממשיך",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT20.95S",
+        "offset": "PT20.99S",
         "duration": "PT2.12S",
-        "offsetInTicks": 209500000.0,
+        "offsetInTicks": 209900000.0,
         "durationInTicks": 21200000.0,
         "nBest": [
           {
-            "confidence": 0.61182964,
-            "lexical": "רגע אני אבדוק רגע טוב לי פעם",
-            "itn": "רגע אני אבדוק רגע טוב לי פעם",
-            "maskedITN": "רגע אני אבדוק רגע טוב לי פעם",
-            "display": "רגע, אני אבדוק רגע, טוב לי פעם.",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.61182964,
-            "lexical": "רגע אני אבדוק רגע טוב לי פעם",
-            "itn": "רגע אני אבדוק רגע טוב לי פעם",
-            "maskedITN": "רגע אני אבדוק רגע טוב לי פעם",
-            "display": "רגע אני אבדוק רגע טוב לי פעם",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.61182964,
-            "lexical": "רגע אני אבדוק רגע טוב לי פעם",
-            "itn": "רגע אני אבדוק רגע טוב לי פעם",
-            "maskedITN": "רגע אני אבדוק רגע טוב לי פעם",
-            "display": "רגע אני אבדוק רגע טוב לי פעם",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.61182964,
-            "lexical": "רגע אני אבדוק רגע טוב לי פעם",
-            "itn": "רגע אני אבדוק רגע טוב לי פעם",
-            "maskedITN": "רגע אני אבדוק רגע טוב לי פעם",
-            "display": "רגע אני אבדוק רגע טוב לי פעם",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          },
-          {
-            "confidence": 0.5327533,
-            "lexical": "רגע אני אבדוק אם כתוב לי פעם",
-            "itn": "רגע אני אבדוק אם כתוב לי פעם",
-            "maskedITN": "רגע אני אבדוק אם כתוב לי פעם",
-            "display": "רגע אני אבדוק אם כתוב לי פעם",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.98,
-              "negative": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT21.24S",
-        "duration": "PT1.6S",
-        "offsetInTicks": 212400000.0,
-        "durationInTicks": 16000000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
+            "confidence": 0.54038906,
+            "lexical": "רגע אני אבדוק מי קו פעם",
+            "itn": "רגע אני אבדוק מי קו פעם",
+            "maskedITN": "רגע אני אבדוק מי קו פעם",
+            "display": "רגע אני אבדוק מי קו פעם?",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1022,11 +315,11 @@
             }
           },
           {
-            "confidence": 0.01741284,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
+            "confidence": 0.54038906,
+            "lexical": "רגע אני אבדוק מי קו פעם",
+            "itn": "רגע אני אבדוק מי קו פעם",
+            "maskedITN": "רגע אני אבדוק מי קו פעם",
+            "display": "רגע אני אבדוק מי קו פעם",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1034,11 +327,11 @@
             }
           },
           {
-            "confidence": 0.01741284,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
+            "confidence": 0.54038906,
+            "lexical": "רגע אני אבדוק מי קו פעם",
+            "itn": "רגע אני אבדוק מי קו פעם",
+            "maskedITN": "רגע אני אבדוק מי קו פעם",
+            "display": "רגע אני אבדוק מי קו פעם",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1046,11 +339,11 @@
             }
           },
           {
-            "confidence": 0.01741284,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
+            "confidence": 0.54038906,
+            "lexical": "רגע אני אבדוק מי קו פעם",
+            "itn": "רגע אני אבדוק מי קו פעם",
+            "maskedITN": "רגע אני אבדוק מי קו פעם",
+            "display": "רגע אני אבדוק מי קו פעם",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1058,11 +351,11 @@
             }
           },
           {
-            "confidence": 0.01741284,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
+            "confidence": 0.6043316,
+            "lexical": "רגע אני אבדוק לי איזשהו פעם",
+            "itn": "רגע אני אבדוק לי איזשהו פעם",
+            "maskedITN": "רגע אני אבדוק לי איזשהו פעם",
+            "display": "רגע אני אבדוק לי איזשהו פעם",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1074,157 +367,29 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT23.19S",
-        "duration": "PT0.4S",
-        "offsetInTicks": 231900000.0,
-        "durationInTicks": 4000000.0,
+        "offset": "PT24.65S",
+        "duration": "PT0.36S",
+        "offsetInTicks": 246500000.0,
+        "durationInTicks": 3600000.0,
         "nBest": [
           {
-            "confidence": 0.7669412,
-            "lexical": "אוקיי",
-            "itn": "אוקיי",
-            "maskedITN": "אוקיי",
-            "display": "אוקיי?",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7669412,
-            "lexical": "אוקיי",
-            "itn": "אוקיי",
-            "maskedITN": "אוקיי",
-            "display": "אוקיי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7669412,
-            "lexical": "אוקיי",
-            "itn": "אוקיי",
-            "maskedITN": "אוקיי",
-            "display": "אוקיי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7669412,
-            "lexical": "אוקיי",
-            "itn": "אוקיי",
-            "maskedITN": "אוקיי",
-            "display": "אוקיי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7669412,
-            "lexical": "אוקיי",
-            "itn": "אוקיי",
-            "maskedITN": "אוקיי",
-            "display": "אוקיי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT24.63S",
-        "duration": "PT0.32S",
-        "offsetInTicks": 246300000.0,
-        "durationInTicks": 3200000.0,
-        "nBest": [
-          {
-            "confidence": 0.8462987,
+            "confidence": 0.8105552,
             "lexical": "רגע",
             "itn": "רגע",
             "maskedITN": "רגע",
             "display": "רגע.",
             "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
+              "positive": 0.25,
+              "neutral": 0.61,
+              "negative": 0.14
             }
           },
           {
-            "confidence": 0.8462987,
+            "confidence": 0.8105552,
             "lexical": "רגע",
             "itn": "רגע",
             "maskedITN": "רגע",
             "display": "רגע",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.8462987,
-            "lexical": "רגע",
-            "itn": "רגע",
-            "maskedITN": "רגע",
-            "display": "רגע",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.8462987,
-            "lexical": "רגע",
-            "itn": "רגע",
-            "maskedITN": "רגע",
-            "display": "רגע",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.8462987,
-            "lexical": "רגע",
-            "itn": "רגע",
-            "maskedITN": "רגע",
-            "display": "רגע",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT25.36S",
-        "duration": "PT2.08S",
-        "offsetInTicks": 253600000.0,
-        "durationInTicks": 20800000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
             "sentiment": {
               "positive": 0.25,
               "neutral": 0.61,
@@ -1232,11 +397,11 @@
             }
           },
           {
-            "confidence": 0.027356934,
-            "lexical": "תודה",
-            "itn": "תודה",
-            "maskedITN": "תודה",
-            "display": "תודה",
+            "confidence": 0.8105552,
+            "lexical": "רגע",
+            "itn": "רגע",
+            "maskedITN": "רגע",
+            "display": "רגע",
             "sentiment": {
               "positive": 0.25,
               "neutral": 0.61,
@@ -1244,11 +409,11 @@
             }
           },
           {
-            "confidence": 0.027356934,
-            "lexical": "תודה",
-            "itn": "תודה",
-            "maskedITN": "תודה",
-            "display": "תודה",
+            "confidence": 0.8105552,
+            "lexical": "רגע",
+            "itn": "רגע",
+            "maskedITN": "רגע",
+            "display": "רגע",
             "sentiment": {
               "positive": 0.25,
               "neutral": 0.61,
@@ -1256,23 +421,11 @@
             }
           },
           {
-            "confidence": 0.027356934,
-            "lexical": "תודה",
-            "itn": "תודה",
-            "maskedITN": "תודה",
-            "display": "תודה",
-            "sentiment": {
-              "positive": 0.25,
-              "neutral": 0.61,
-              "negative": 0.14
-            }
-          },
-          {
-            "confidence": 0.027356934,
-            "lexical": "תודה",
-            "itn": "תודה",
-            "maskedITN": "תודה",
-            "display": "תודה",
+            "confidence": 0.8105552,
+            "lexical": "רגע",
+            "itn": "רגע",
+            "maskedITN": "רגע",
+            "display": "רגע",
             "sentiment": {
               "positive": 0.25,
               "neutral": 0.61,
@@ -1283,14 +436,14 @@
       },
       {
         "recognitionStatus": "Success",
-        "channel": 1,
+        "channel": 0,
         "offset": "PT26.67S",
         "duration": "PT1.24S",
         "offsetInTicks": 266700000.0,
         "durationInTicks": 12400000.0,
         "nBest": [
           {
-            "confidence": 0.38392836,
+            "confidence": 0.3378038,
             "lexical": "קשה מצאתי",
             "itn": "קשה מצאתי",
             "maskedITN": "קשה מצאתי",
@@ -1314,11 +467,11 @@
             }
           },
           {
-            "confidence": 0.20429592,
-            "lexical": "איזה קשה אני מצאתי",
-            "itn": "איזה קשה אני מצאתי",
-            "maskedITN": "איזה קשה אני מצאתי",
-            "display": "איזה קשה אני מצאתי",
+            "confidence": 0.2682939,
+            "lexical": "קצת אני מצאתי",
+            "itn": "קצת אני מצאתי",
+            "maskedITN": "קצת אני מצאתי",
+            "display": "קצת אני מצאתי",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1326,11 +479,11 @@
             }
           },
           {
-            "confidence": 0.07109663,
-            "lexical": "איזה קשה שמצאתי",
-            "itn": "איזה קשה שמצאתי",
-            "maskedITN": "איזה קשה שמצאתי",
-            "display": "איזה קשה שמצאתי",
+            "confidence": 0.15042013,
+            "lexical": "יש קצת קיים מצאתי",
+            "itn": "יש קצת קיים מצאתי",
+            "maskedITN": "יש קצת קיים מצאתי",
+            "display": "יש קצת קיים מצאתי",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1338,11 +491,11 @@
             }
           },
           {
-            "confidence": 0.07109663,
-            "lexical": "איזה קשה שמצאתי",
-            "itn": "איזה קשה שמצאתי",
-            "maskedITN": "איזה קשה שמצאתי",
-            "display": "איזה קשה שמצאתי",
+            "confidence": 0.15042013,
+            "lexical": "יש קצת קיים מצאתי",
+            "itn": "יש קצת קיים מצאתי",
+            "maskedITN": "יש קצת קיים מצאתי",
+            "display": "יש קצת קיים מצאתי",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1354,138 +507,68 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT27.44S",
-        "duration": "PT6.24S",
-        "offsetInTicks": 274400000.0,
-        "durationInTicks": 62400000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.99,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.05111229,
-            "lexical": "אבל",
-            "itn": "אבל",
-            "maskedITN": "אבל",
-            "display": "אבל",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.99,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.05111229,
-            "lexical": "אבל",
-            "itn": "אבל",
-            "maskedITN": "אבל",
-            "display": "אבל",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.99,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.05111229,
-            "lexical": "אבל",
-            "itn": "אבל",
-            "maskedITN": "אבל",
-            "display": "אבל",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.99,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.05111229,
-            "lexical": "אבל",
-            "itn": "אבל",
-            "maskedITN": "אבל",
-            "display": "אבל",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.99,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT29.23S",
+        "offset": "PT29.27S",
         "duration": "PT8.96S",
-        "offsetInTicks": 292300000.0,
+        "offsetInTicks": 292700000.0,
         "durationInTicks": 89600000.0,
         "nBest": [
           {
-            "confidence": 0.7483955,
-            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם, לא חיברתם אותו, לא הצלקתם לחבר אותו. יש לנו מצב, יש את האינטרנט.",
+            "confidence": 0.712887,
+            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו. מהרגע שהתחברנו אליכם, לא חיברתם אותו, לא הצלקתם לחבר אותו. יש לנו מסע, יש את האינטרנט.",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
+              "neutral": 0.99,
               "negative": 0.0
             }
           },
           {
-            "confidence": 0.7483955,
-            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
+            "confidence": 0.712887,
+            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
+              "neutral": 0.99,
               "negative": 0.0
             }
           },
           {
-            "confidence": 0.7483955,
-            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
+            "confidence": 0.712887,
+            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
+              "neutral": 0.99,
               "negative": 0.0
             }
           },
           {
-            "confidence": 0.7483955,
-            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
+            "confidence": 0.712887,
+            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
+              "neutral": 0.99,
               "negative": 0.0
             }
           },
           {
-            "confidence": 0.7483955,
-            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
-            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא קיבלתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מצב יש את האינטרנט",
+            "confidence": 0.712887,
+            "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+            "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
+              "neutral": 0.99,
               "negative": 0.0
             }
           }
@@ -1494,157 +577,17 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT33.68S",
-        "duration": "PT3.8S",
-        "offsetInTicks": 336800000.0,
-        "durationInTicks": 38000000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.34,
-              "neutral": 0.64,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.14858878,
-            "lexical": "כל הכבוד",
-            "itn": "כל הכבוד",
-            "maskedITN": "כל הכבוד",
-            "display": "כל הכבוד",
-            "sentiment": {
-              "positive": 0.34,
-              "neutral": 0.64,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.14858878,
-            "lexical": "כל הכבוד",
-            "itn": "כל הכבוד",
-            "maskedITN": "כל הכבוד",
-            "display": "כל הכבוד",
-            "sentiment": {
-              "positive": 0.34,
-              "neutral": 0.64,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.14858878,
-            "lexical": "כל הכבוד",
-            "itn": "כל הכבוד",
-            "maskedITN": "כל הכבוד",
-            "display": "כל הכבוד",
-            "sentiment": {
-              "positive": 0.34,
-              "neutral": 0.64,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.14858878,
-            "lexical": "כל הכבוד",
-            "itn": "כל הכבוד",
-            "maskedITN": "כל הכבוד",
-            "display": "כל הכבוד",
-            "sentiment": {
-              "positive": 0.34,
-              "neutral": 0.64,
-              "negative": 0.02
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT37.48S",
-        "duration": "PT4.64S",
-        "offsetInTicks": 374800000.0,
-        "durationInTicks": 46400000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.43993607,
-            "lexical": "אז",
-            "itn": "אז",
-            "maskedITN": "אז",
-            "display": "אז",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.43993607,
-            "lexical": "אז",
-            "itn": "אז",
-            "maskedITN": "אז",
-            "display": "אז",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.43993607,
-            "lexical": "אז",
-            "itn": "אז",
-            "maskedITN": "אז",
-            "display": "אז",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.43993607,
-            "lexical": "אז",
-            "itn": "אז",
-            "maskedITN": "אז",
-            "display": "אז",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT39.27S",
+        "offset": "PT39.31S",
         "duration": "PT20.52S",
-        "offsetInTicks": 392700000.0,
+        "offsetInTicks": 393100000.0,
         "durationInTicks": 205200000.0,
         "nBest": [
           {
-            "confidence": 0.75767636,
-            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון, אבל גם היינו רואים מי נמצא בחוץ. מי הגיע? ברגע שהתחברנו לעומק טלקום, אתם חיברתם את הטלפון. אנחנו פותחים את הדלת עם המכה שלפת, אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות.",
+            "confidence": 0.75204796,
+            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון, אבל גם היינו רואים מי נמצא בחוץ. מי הגיע? ברגע שהתחברנו לעונג טלקום, אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס, אבל המסך נשאר כבי. מהרגע שהתחברנו אליכם, לא הצלחתם לחברות.",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1652,11 +595,11 @@
             }
           },
           {
-            "confidence": 0.75767636,
-            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
+            "confidence": 0.75204796,
+            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1664,11 +607,11 @@
             }
           },
           {
-            "confidence": 0.75767636,
-            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
+            "confidence": 0.75204796,
+            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1676,11 +619,11 @@
             }
           },
           {
-            "confidence": 0.75767636,
-            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
+            "confidence": 0.75204796,
+            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1688,151 +631,11 @@
             }
           },
           {
-            "confidence": 0.75767636,
-            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעומק טלקום אתם חיברתם את הטלפון אנחנו פותחים את הדלת עם המכה שלפת אבל המסך נשאר כבוי מהרגע שהתחברנו על אנחנו לא הצלחתם לחברות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT42.12S",
-        "duration": "PT0.96S",
-        "offsetInTicks": 421200000.0,
-        "durationInTicks": 9600000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.09,
-              "neutral": 0.76,
-              "negative": 0.14
-            }
-          },
-          {
-            "confidence": 0.011004646,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.09,
-              "neutral": 0.76,
-              "negative": 0.14
-            }
-          },
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.09,
-              "neutral": 0.76,
-              "negative": 0.14
-            }
-          },
-          {
-            "confidence": 0.011002763,
-            "lexical": "אוק",
-            "itn": "אוק",
-            "maskedITN": "אוק",
-            "display": "אוק",
-            "sentiment": {
-              "positive": 0.09,
-              "neutral": 0.76,
-              "negative": 0.14
-            }
-          },
-          {
-            "confidence": 0.011001067,
-            "lexical": "פס",
-            "itn": "פס",
-            "maskedITN": "פס",
-            "display": "פס",
-            "sentiment": {
-              "positive": 0.09,
-              "neutral": 0.76,
-              "negative": 0.14
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT43.08S",
-        "duration": "PT3.16S",
-        "offsetInTicks": 430800000.0,
-        "durationInTicks": 31600000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030944705,
-            "lexical": "עשיתי",
-            "itn": "עשיתי",
-            "maskedITN": "עשיתי",
-            "display": "עשיתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030944705,
-            "lexical": "עשיתי",
-            "itn": "עשיתי",
-            "maskedITN": "עשיתי",
-            "display": "עשיתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.02966385,
-            "lexical": "עשית",
-            "itn": "עשית",
-            "maskedITN": "עשית",
-            "display": "עשית",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.026612904,
-            "lexical": "עש",
-            "itn": "עש",
-            "maskedITN": "עש",
-            "display": "עש",
+            "confidence": 0.75204796,
+            "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+            "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -1844,489 +647,69 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT47.2S",
-        "duration": "PT0.2S",
-        "offsetInTicks": 472000000.0,
-        "durationInTicks": 2000000.0,
-        "nBest": [
-          {
-            "confidence": 0.0262721,
-            "lexical": "כתוב",
-            "itn": "כתוב",
-            "maskedITN": "כתוב",
-            "display": "כתוב.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.95,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.016692523,
-            "lexical": "כת",
-            "itn": "כת",
-            "maskedITN": "כת",
-            "display": "כת",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.95,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.020457739,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.95,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.020457739,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.95,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.020457739,
-            "lexical": "כתוביות",
-            "itn": "כתוביות",
-            "maskedITN": "כתוביות",
-            "display": "כתוביות",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.95,
-              "negative": 0.04
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT48.11S",
-        "duration": "PT0.12S",
-        "offsetInTicks": 481100000.0,
-        "durationInTicks": 1200000.0,
-        "nBest": [
-          {
-            "confidence": 0.7092112,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7092112,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7092112,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7092112,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.7092112,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT49S",
-        "duration": "PT1.84S",
-        "offsetInTicks": 490000000.0,
-        "durationInTicks": 18400000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.010999024,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.010997516,
-            "lexical": "אוק",
-            "itn": "אוק",
-            "maskedITN": "אוק",
-            "display": "אוק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.01099656,
-            "lexical": "פס",
-            "itn": "פס",
-            "maskedITN": "פס",
-            "display": "פס",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT52.83S",
-        "duration": "PT0.12S",
-        "offsetInTicks": 528300000.0,
-        "durationInTicks": 1200000.0,
-        "nBest": [
-          {
-            "confidence": 0.056483082,
-            "lexical": "קט",
-            "itn": "קט",
-            "maskedITN": "קט",
-            "display": "קט.",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.0,
-              "negative": 0.99
-            }
-          },
-          {
-            "confidence": 0.03383304,
-            "lexical": "קטנה",
-            "itn": "קטנה",
-            "maskedITN": "קטנה",
-            "display": "קטנה",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.0,
-              "negative": 0.99
-            }
-          },
-          {
-            "confidence": 0.03383304,
-            "lexical": "קטנה",
-            "itn": "קטנה",
-            "maskedITN": "קטנה",
-            "display": "קטנה",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.0,
-              "negative": 0.99
-            }
-          },
-          {
-            "confidence": 0.03383304,
-            "lexical": "קטנה",
-            "itn": "קטנה",
-            "maskedITN": "קטנה",
-            "display": "קטנה",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.0,
-              "negative": 0.99
-            }
-          },
-          {
-            "confidence": 0.03383304,
-            "lexical": "קטנה",
-            "itn": "קטנה",
-            "maskedITN": "קטנה",
-            "display": "קטנה",
-            "sentiment": {
-              "positive": 0.01,
-              "neutral": 0.0,
-              "negative": 0.99
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT54.24S",
-        "duration": "PT2.92S",
-        "offsetInTicks": 542400000.0,
-        "durationInTicks": 29200000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030295199,
-            "lexical": "מ",
-            "itn": "מ",
-            "maskedITN": "מ",
-            "display": "מ",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030295199,
-            "lexical": "מ",
-            "itn": "מ",
-            "maskedITN": "מ",
-            "display": "מ",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030295199,
-            "lexical": "מ",
-            "itn": "מ",
-            "maskedITN": "מ",
-            "display": "מ",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.030295199,
-            "lexical": "מ",
-            "itn": "מ",
-            "maskedITN": "מ",
-            "display": "מ",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT57.16S",
-        "duration": "PT2S",
-        "offsetInTicks": 571600000.0,
-        "durationInTicks": 20000000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.011001601,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.010999909,
-            "lexical": "אוק",
-            "itn": "אוק",
-            "maskedITN": "אוק",
-            "display": "אוק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.010998761,
-            "lexical": "פס",
-            "itn": "פס",
-            "maskedITN": "פס",
-            "display": "פס",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M2.73S",
+        "offset": "PT1M2.77S",
         "duration": "PT3.64S",
-        "offsetInTicks": 627300000.0,
+        "offsetInTicks": 627700000.0,
         "durationInTicks": 36400000.0,
         "nBest": [
           {
-            "confidence": 0.5948877,
-            "lexical": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "itn": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "maskedITN": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "display": "את רוצה איתנו? את הכומרת אינטרנט של הממשק או של הלקח.",
+            "confidence": 0.68937,
+            "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "display": "את רוצה את אינטרנט של הממשק או של הלקח?",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.15,
-              "negative": 0.85
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.5948877,
-            "lexical": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "itn": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "maskedITN": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "display": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
+            "confidence": 0.68937,
+            "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "display": "את רוצה את אינטרנט של הממשק או של הלקח",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.15,
-              "negative": 0.85
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.5948877,
-            "lexical": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "itn": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "maskedITN": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "display": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
+            "confidence": 0.68937,
+            "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "display": "את רוצה את אינטרנט של הממשק או של הלקח",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.15,
-              "negative": 0.85
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.5948877,
-            "lexical": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "itn": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "maskedITN": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "display": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
+            "confidence": 0.68937,
+            "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "display": "את רוצה את אינטרנט של הממשק או של הלקח",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.15,
-              "negative": 0.85
+              "neutral": 0.95,
+              "negative": 0.04
             }
           },
           {
-            "confidence": 0.5948877,
-            "lexical": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "itn": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "maskedITN": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
-            "display": "את רוצה איתנו את הכומרת אינטרנט של הממשק או של הלקח",
+            "confidence": 0.68937,
+            "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+            "display": "את רוצה את אינטרנט של הממשק או של הלקח",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.15,
-              "negative": 0.85
+              "neutral": 0.95,
+              "negative": 0.04
             }
           }
         ]
@@ -2334,17 +717,17 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT1M4.41S",
-        "duration": "PT0.56S",
-        "offsetInTicks": 644100000.0,
-        "durationInTicks": 5600000.0,
+        "offset": "PT1M7.12S",
+        "duration": "PT2.32S",
+        "offsetInTicks": 671200000.0,
+        "durationInTicks": 23200000.0,
         "nBest": [
           {
-            "confidence": 0.15322615,
-            "lexical": "קטע",
-            "itn": "קטע",
-            "maskedITN": "קטע",
-            "display": "קטע.",
+            "confidence": 0.0,
+            "lexical": "",
+            "itn": "",
+            "maskedITN": "",
+            "display": "",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2352,11 +735,11 @@
             }
           },
           {
-            "confidence": 0.15322615,
-            "lexical": "קטע",
-            "itn": "קטע",
-            "maskedITN": "קטע",
-            "display": "קטע",
+            "confidence": 0.016491836,
+            "lexical": "לג",
+            "itn": "לג",
+            "maskedITN": "לג",
+            "display": "לג",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2364,11 +747,11 @@
             }
           },
           {
-            "confidence": 0.15322615,
-            "lexical": "קטע",
-            "itn": "קטע",
-            "maskedITN": "קטע",
-            "display": "קטע",
+            "confidence": 0.01679065,
+            "lexical": "נכון",
+            "itn": "נכון",
+            "maskedITN": "נכון",
+            "display": "נכון",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2376,11 +759,11 @@
             }
           },
           {
-            "confidence": 0.1532262,
-            "lexical": "קטע",
-            "itn": "קטע",
-            "maskedITN": "קטע",
-            "display": "קטע",
+            "confidence": 0.01679065,
+            "lexical": "נכון",
+            "itn": "נכון",
+            "maskedITN": "נכון",
+            "display": "נכון",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2388,11 +771,11 @@
             }
           },
           {
-            "confidence": 0.1532262,
-            "lexical": "קטע",
-            "itn": "קטע",
-            "maskedITN": "קטע",
-            "display": "קטע",
+            "confidence": 0.01679065,
+            "lexical": "נכון",
+            "itn": "נכון",
+            "maskedITN": "נכון",
+            "display": "נכון",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2404,349 +787,69 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT1M6.71S",
+        "offset": "PT1M9.87S",
         "duration": "PT1.08S",
-        "offsetInTicks": 667100000.0,
+        "offsetInTicks": 698700000.0,
         "durationInTicks": 10800000.0,
         "nBest": [
           {
-            "confidence": 0.84554607,
-            "lexical": "של הממשק",
-            "itn": "של הממשק",
-            "maskedITN": "של הממשק",
-            "display": "של הממשק.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.84554607,
-            "lexical": "של הממשק",
-            "itn": "של הממשק",
-            "maskedITN": "של הממשק",
-            "display": "של הממשק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.84554607,
-            "lexical": "של הממשק",
-            "itn": "של הממשק",
-            "maskedITN": "של הממשק",
-            "display": "של הממשק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.84554607,
-            "lexical": "של הממשק",
-            "itn": "של הממשק",
-            "maskedITN": "של הממשק",
-            "display": "של הממשק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.84554607,
-            "lexical": "של הממשק",
-            "itn": "של הממשק",
-            "maskedITN": "של הממשק",
-            "display": "של הממשק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M7.12S",
-        "duration": "PT1.32S",
-        "offsetInTicks": 671200000.0,
-        "durationInTicks": 13200000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.0109990025,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.01099751,
-            "lexical": "אוק",
-            "itn": "אוק",
-            "maskedITN": "אוק",
-            "display": "אוק",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.010996548,
-            "lexical": "פס",
-            "itn": "פס",
-            "maskedITN": "פס",
-            "display": "פס",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M8.44S",
-        "duration": "PT0.88S",
-        "offsetInTicks": 684400000.0,
-        "durationInTicks": 8800000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.11,
-              "negative": 0.89
-            }
-          },
-          {
-            "confidence": 0.02078614,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.11,
-              "negative": 0.89
-            }
-          },
-          {
-            "confidence": 0.02078614,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.11,
-              "negative": 0.89
-            }
-          },
-          {
-            "confidence": 0.02078614,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.11,
-              "negative": 0.89
-            }
-          },
-          {
-            "confidence": 0.02078614,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.11,
-              "negative": 0.89
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT1M8.92S",
-        "duration": "PT1.56S",
-        "offsetInTicks": 689200000.0,
-        "durationInTicks": 15600000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.042592052,
-            "lexical": "הבנתי",
-            "itn": "הבנתי",
-            "maskedITN": "הבנתי",
-            "display": "הבנתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.042592052,
-            "lexical": "הבנתי",
-            "itn": "הבנתי",
-            "maskedITN": "הבנתי",
-            "display": "הבנתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.042592052,
-            "lexical": "הבנתי",
-            "itn": "הבנתי",
-            "maskedITN": "הבנתי",
-            "display": "הבנתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.042592052,
-            "lexical": "הבנתי",
-            "itn": "הבנתי",
-            "maskedITN": "הבנתי",
-            "display": "הבנתי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M9.83S",
-        "duration": "PT1.04S",
-        "offsetInTicks": 698300000.0,
-        "durationInTicks": 10400000.0,
-        "nBest": [
-          {
-            "confidence": 0.84727556,
+            "confidence": 0.84411794,
             "lexical": "עשר נקודה אפס",
             "itn": "10.0",
             "maskedITN": "10.0",
             "display": "10.0.",
             "sentiment": {
-              "positive": 0.0,
+              "positive": 0.01,
               "neutral": 0.0,
-              "negative": 0.0
+              "negative": 0.99
             }
           },
           {
-            "confidence": 0.84727556,
+            "confidence": 0.84411794,
             "lexical": "עשר נקודה אפס",
             "itn": "עשר נקודה אפס",
             "maskedITN": "עשר נקודה אפס",
             "display": "עשר נקודה אפס",
             "sentiment": {
-              "positive": 0.0,
+              "positive": 0.01,
               "neutral": 0.0,
-              "negative": 0.0
+              "negative": 0.99
             }
           },
           {
-            "confidence": 0.84727556,
+            "confidence": 0.84411794,
             "lexical": "עשר נקודה אפס",
             "itn": "עשר נקודה אפס",
             "maskedITN": "עשר נקודה אפס",
             "display": "עשר נקודה אפס",
             "sentiment": {
-              "positive": 0.0,
+              "positive": 0.01,
               "neutral": 0.0,
-              "negative": 0.0
+              "negative": 0.99
             }
           },
           {
-            "confidence": 0.84727556,
+            "confidence": 0.844118,
             "lexical": "עשר נקודה אפס",
             "itn": "עשר נקודה אפס",
             "maskedITN": "עשר נקודה אפס",
             "display": "עשר נקודה אפס",
             "sentiment": {
-              "positive": 0.0,
+              "positive": 0.01,
               "neutral": 0.0,
-              "negative": 0.0
+              "negative": 0.99
             }
           },
           {
-            "confidence": 0.84727556,
+            "confidence": 0.844118,
             "lexical": "עשר נקודה אפס",
             "itn": "עשר נקודה אפס",
             "maskedITN": "עשר נקודה אפס",
             "display": "עשר נקודה אפס",
             "sentiment": {
-              "positive": 0.0,
+              "positive": 0.01,
               "neutral": 0.0,
-              "negative": 0.0
+              "negative": 0.99
             }
           }
         ]
@@ -2754,157 +857,29 @@
       {
         "recognitionStatus": "Success",
         "channel": 0,
-        "offset": "PT1M11.43S",
-        "duration": "PT0.44S",
-        "offsetInTicks": 714300000.0,
-        "durationInTicks": 4400000.0,
-        "nBest": [
-          {
-            "confidence": 0.82390356,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.82390356,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.82390356,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.82390356,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.82390356,
-            "lexical": "כן",
-            "itn": "כן",
-            "maskedITN": "כן",
-            "display": "כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M13.2S",
+        "offset": "PT1M13.31S",
         "duration": "PT0.88S",
-        "offsetInTicks": 732000000.0,
+        "offsetInTicks": 733100000.0,
         "durationInTicks": 8800000.0,
         "nBest": [
           {
-            "confidence": 0.82433873,
+            "confidence": 0.71066576,
             "lexical": "נקודה אפס",
             "itn": "נקודה אפס",
             "maskedITN": " אפס",
             "display": ". אפס.",
             "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
             }
           },
           {
-            "confidence": 0.82433873,
+            "confidence": 0.71066576,
             "lexical": "נקודה אפס",
             "itn": "נקודה אפס",
             "maskedITN": "נקודה אפס",
             "display": "נקודה אפס",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.82433873,
-            "lexical": "נקודה אפס",
-            "itn": "נקודה אפס",
-            "maskedITN": "נקודה אפס",
-            "display": "נקודה אפס",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.82433873,
-            "lexical": "נקודה אפס",
-            "itn": "נקודה אפס",
-            "maskedITN": "נקודה אפס",
-            "display": "נקודה אפס",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          },
-          {
-            "confidence": 0.82433873,
-            "lexical": "נקודה אפס",
-            "itn": "נקודה אפס",
-            "maskedITN": "נקודה אפס",
-            "display": "נקודה אפס",
-            "sentiment": {
-              "positive": 0.23,
-              "neutral": 0.7,
-              "negative": 0.07
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT1M14.83S",
-        "duration": "PT1.16S",
-        "offsetInTicks": 748300000.0,
-        "durationInTicks": 11600000.0,
-        "nBest": [
-          {
-            "confidence": 0.509706,
-            "lexical": "סוגריים אפס כן",
-            "itn": "סוגריים אפס כן",
-            "maskedITN": ") אפס כן",
-            "display": ") אפס כן.",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2912,11 +887,11 @@
             }
           },
           {
-            "confidence": 0.509706,
-            "lexical": "סוגריים אפס כן",
-            "itn": "סוגריים אפס כן",
-            "maskedITN": "סוגריים אפס כן",
-            "display": "סוגריים אפס כן",
+            "confidence": 0.71066576,
+            "lexical": "נקודה אפס",
+            "itn": "נקודה אפס",
+            "maskedITN": "נקודה אפס",
+            "display": "נקודה אפס",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2924,11 +899,11 @@
             }
           },
           {
-            "confidence": 0.509706,
-            "lexical": "סוגריים אפס כן",
-            "itn": "סוגריים אפס כן",
-            "maskedITN": "סוגריים אפס כן",
-            "display": "סוגריים אפס כן",
+            "confidence": 0.71066576,
+            "lexical": "נקודה אפס",
+            "itn": "נקודה אפס",
+            "maskedITN": "נקודה אפס",
+            "display": "נקודה אפס",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2936,23 +911,11 @@
             }
           },
           {
-            "confidence": 0.5097061,
-            "lexical": "סוגריים אפס כן",
-            "itn": "סוגריים אפס כן",
-            "maskedITN": "סוגריים אפס כן",
-            "display": "סוגריים אפס כן",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.509706,
-            "lexical": "סוגריים אפס כן",
-            "itn": "סוגריים אפס כן",
-            "maskedITN": "סוגריים אפס כן",
-            "display": "סוגריים אפס כן",
+            "confidence": 0.7106658,
+            "lexical": "נקודה אפס",
+            "itn": "נקודה אפס",
+            "maskedITN": "נקודה אפס",
+            "display": "נקודה אפס",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -2963,298 +926,124 @@
       },
       {
         "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M15.55S",
+        "channel": 0,
+        "offset": "PT1M15.59S",
         "duration": "PT2.08S",
-        "offsetInTicks": 755500000.0,
+        "offsetInTicks": 755900000.0,
         "durationInTicks": 20800000.0,
         "nBest": [
           {
-            "confidence": 0.5577464,
-            "lexical": "נקודה נקודה",
-            "itn": "נקודה נקודה",
-            "maskedITN": "..",
-            "display": "..",
-            "sentiment": {
-              "positive": 0.12,
-              "neutral": 0.86,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.5577464,
-            "lexical": "נקודה נקודה",
-            "itn": "נקודה נקודה",
-            "maskedITN": "נקודה נקודה",
-            "display": "נקודה נקודה",
-            "sentiment": {
-              "positive": 0.12,
-              "neutral": 0.86,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.5577464,
-            "lexical": "נקודה נקודה",
-            "itn": "נקודה נקודה",
-            "maskedITN": "נקודה נקודה",
-            "display": "נקודה נקודה",
-            "sentiment": {
-              "positive": 0.12,
-              "neutral": 0.86,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.5577464,
-            "lexical": "נקודה נקודה",
-            "itn": "נקודה נקודה",
-            "maskedITN": "נקודה נקודה",
-            "display": "נקודה נקודה",
-            "sentiment": {
-              "positive": 0.12,
-              "neutral": 0.86,
-              "negative": 0.02
-            }
-          },
-          {
-            "confidence": 0.5577464,
-            "lexical": "נקודה נקודה",
-            "itn": "נקודה נקודה",
-            "maskedITN": "נקודה נקודה",
-            "display": "נקודה נקודה",
-            "sentiment": {
-              "positive": 0.12,
-              "neutral": 0.86,
-              "negative": 0.02
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT1M16.84S",
-        "duration": "PT1.36S",
-        "offsetInTicks": 768400000.0,
-        "durationInTicks": 13600000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
+            "confidence": 0.67474574,
+            "lexical": "נקודה תשעים נקודה",
+            "itn": "נקודה 90 נקודה",
+            "maskedITN": " 90",
+            "display": ". 90.",
             "sentiment": {
               "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.027970416,
-            "lexical": "תודה",
-            "itn": "תודה",
-            "maskedITN": "תודה",
-            "display": "תודה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.039565224,
-            "lexical": "תודה רבה",
-            "itn": "תודה רבה",
-            "maskedITN": "תודה רבה",
-            "display": "תודה רבה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.039565224,
-            "lexical": "תודה רבה",
-            "itn": "תודה רבה",
-            "maskedITN": "תודה רבה",
-            "display": "תודה רבה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.039565224,
-            "lexical": "תודה רבה",
-            "itn": "תודה רבה",
-            "maskedITN": "תודה רבה",
-            "display": "תודה רבה",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT1M18.51S",
-        "duration": "PT0.28S",
-        "offsetInTicks": 785100000.0,
-        "durationInTicks": 2800000.0,
-        "nBest": [
-          {
-            "confidence": 0.68028665,
-            "lexical": "או קי",
-            "itn": "או קי",
-            "maskedITN": "או קי",
-            "display": "או קי.",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.68028665,
-            "lexical": "או קי",
-            "itn": "או קי",
-            "maskedITN": "או קי",
-            "display": "או קי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.68028665,
-            "lexical": "או קי",
-            "itn": "או קי",
-            "maskedITN": "או קי",
-            "display": "או קי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.68028665,
-            "lexical": "או קי",
-            "itn": "או קי",
-            "maskedITN": "או קי",
-            "display": "או קי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.68028665,
-            "lexical": "או קי",
-            "itn": "או קי",
-            "maskedITN": "או קי",
-            "display": "או קי",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 1,
-        "offset": "PT1M19.08S",
-        "duration": "PT1.56S",
-        "offsetInTicks": 790800000.0,
-        "durationInTicks": 15600000.0,
-        "nBest": [
-          {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.05,
               "neutral": 0.91,
-              "negative": 0.04
+              "negative": 0.09
             }
           },
           {
-            "confidence": 0.021513347,
+            "confidence": 0.67474574,
+            "lexical": "נקודה תשעים נקודה",
+            "itn": "נקודה תשעים נקודה",
+            "maskedITN": "נקודה תשעים נקודה",
+            "display": "נקודה תשעים נקודה",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.91,
+              "negative": 0.09
+            }
+          },
+          {
+            "confidence": 0.67474574,
+            "lexical": "נקודה תשעים נקודה",
+            "itn": "נקודה תשעים נקודה",
+            "maskedITN": "נקודה תשעים נקודה",
+            "display": "נקודה תשעים נקודה",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.91,
+              "negative": 0.09
+            }
+          },
+          {
+            "confidence": 0.67474574,
+            "lexical": "נקודה תשעים נקודה",
+            "itn": "נקודה תשעים נקודה",
+            "maskedITN": "נקודה תשעים נקודה",
+            "display": "נקודה תשעים נקודה",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.91,
+              "negative": 0.09
+            }
+          },
+          {
+            "confidence": 0.67474574,
+            "lexical": "נקודה תשעים נקודה",
+            "itn": "נקודה תשעים נקודה",
+            "maskedITN": "נקודה תשעים נקודה",
+            "display": "נקודה תשעים נקודה",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.91,
+              "negative": 0.09
+            }
+          }
+        ]
+      },
+      {
+        "recognitionStatus": "Success",
+        "channel": 0,
+        "offset": "PT1M20.52S",
+        "duration": "PT0.16S",
+        "offsetInTicks": 805200000.0,
+        "durationInTicks": 1600000.0,
+        "nBest": [
+          {
+            "confidence": 0.023741694,
+            "lexical": "למה",
+            "itn": "למה",
+            "maskedITN": "למה",
+            "display": "למה?",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
+            }
+          },
+          {
+            "confidence": 0.0,
+            "lexical": "",
+            "itn": "",
+            "maskedITN": "",
+            "display": "",
+            "sentiment": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
+            }
+          },
+          {
+            "confidence": 0.024318596,
             "lexical": "שלום",
             "itn": "שלום",
             "maskedITN": "שלום",
             "display": "שלום",
             "sentiment": {
-              "positive": 0.05,
-              "neutral": 0.91,
-              "negative": 0.04
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 0.0
             }
           },
           {
-            "confidence": 0.018951101,
-            "lexical": "של",
-            "itn": "של",
-            "maskedITN": "של",
-            "display": "של",
-            "sentiment": {
-              "positive": 0.05,
-              "neutral": 0.91,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.020625966,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.05,
-              "neutral": 0.91,
-              "negative": 0.04
-            }
-          },
-          {
-            "confidence": 0.020625966,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.05,
-              "neutral": 0.91,
-              "negative": 0.04
-            }
-          }
-        ]
-      },
-      {
-        "recognitionStatus": "Success",
-        "channel": 0,
-        "offset": "PT1M20.27S",
-        "duration": "PT0.2S",
-        "offsetInTicks": 802700000.0,
-        "durationInTicks": 2000000.0,
-        "nBest": [
-          {
-            "confidence": 0.03935907,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון?",
+            "confidence": 0.023741694,
+            "lexical": "למה",
+            "itn": "למה",
+            "maskedITN": "למה",
+            "display": "למה",
             "sentiment": {
               "positive": 0.0,
               "neutral": 0.0,
@@ -3262,43 +1051,7 @@
             }
           },
           {
-            "confidence": 0.0,
-            "lexical": "",
-            "itn": "",
-            "maskedITN": "",
-            "display": "",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.03935907,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.03935907,
-            "lexical": "נכון",
-            "itn": "נכון",
-            "maskedITN": "נכון",
-            "display": "נכון",
-            "sentiment": {
-              "positive": 0.0,
-              "neutral": 0.0,
-              "negative": 0.0
-            }
-          },
-          {
-            "confidence": 0.03935907,
+            "confidence": 0.02409748,
             "lexical": "נכון",
             "itn": "נכון",
             "maskedITN": "נכון",
