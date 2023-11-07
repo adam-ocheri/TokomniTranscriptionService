@@ -67,19 +67,6 @@ def start_transcription_job(filename):
     }
     return jsonify(response_data)
 
-    # channel1 = send_file(
-    #     response_data["conversationPart_servicePerson_url"],
-    #     mimetype="audio/mpeg",
-    #     as_attachment=True,
-    # )
-    # channel2 = send_file(
-    #     response_data["conversationPart_businessClient_url"],
-    #     mimetype="audio/mpeg",
-    #     as_attachment=True,
-    # )
-    # response = {"servicePerson": channel1, "businessClient": channel2}
-    # return jsonify(response)
-
 
 @app.route("/get_audio/<path:filename>", methods=["GET"])
 def get_audio(filename):

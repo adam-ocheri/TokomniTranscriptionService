@@ -1,8 +1,618 @@
 [
-    "phrases",
-    "offsetInTicks",
-    "speakerChannel",
-    "phrases",
-    "offsetInTicks",
-    "speakerChannel"
+    {
+        "confidence": 0.022761857,
+        "lexical": "נכון",
+        "itn": "נכון",
+        "maskedITN": "נכון",
+        "display": "נכון",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 0.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.7462559,
+        "lexical": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+        "itn": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+        "maskedITN": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם ואז אני צריכה להתקשר אליכם שוב כדי שתחברו את האינטרנט",
+        "display": "כל פעם שאתם עושים איזשהו הגדרות אתם מנתקים את האינסטגרם, ואז אני צריכה להתקשר אליכם שוב. כדי שתחברו את האינטרנט.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.98,
+            "negative": 0.01
+        },
+        "offsetInTicks": 6700000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.025985662,
+        "lexical": "כתוב",
+        "itn": "כתוב",
+        "maskedITN": "כתוב",
+        "display": "כתוב.",
+        "sentiment": {
+            "positive": 0.23,
+            "neutral": 0.7,
+            "negative": 0.07
+        },
+        "offsetInTicks": 35100000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.050317813,
+        "lexical": "נכון",
+        "itn": "נכון",
+        "maskedITN": "נכון",
+        "display": "נכון?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 52900000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.022092646,
+        "lexical": "נכון",
+        "itn": "נכון",
+        "maskedITN": "נכון",
+        "display": "נכון",
+        "sentiment": {
+            "positive": 0.21,
+            "neutral": 0.74,
+            "negative": 0.05
+        },
+        "offsetInTicks": 63600000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.6656504,
+        "lexical": "את יודעת מה הייתי אצל האינטרקום",
+        "itn": "את יודעת מה הייתי אצל האינטרקום",
+        "maskedITN": "את יודעת מה הייתי אצל האינטרקום",
+        "display": "את יודעת מה הייתי אצל האינטרקום?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 85600000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.2584679,
+        "lexical": "איך",
+        "itn": "איך",
+        "maskedITN": "איך",
+        "display": "איך?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 105100000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.7673478,
+        "lexical": "את יודעת מה איי טי של האינטרום",
+        "itn": "את יודעת מה איי טי של האינטרום",
+        "maskedITN": "את יודעת מה איי טי של האינטרום",
+        "display": "את יודעת מה איי טי של האינטרום?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 125100000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.024270883,
+        "lexical": "שלום",
+        "itn": "שלום",
+        "maskedITN": "שלום",
+        "display": "שלום",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.95,
+            "negative": 0.04
+        },
+        "offsetInTicks": 131600000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.020516453,
+        "lexical": "שלי",
+        "itn": "שלי",
+        "maskedITN": "שלי",
+        "display": "שלי",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.99,
+            "negative": 0.01
+        },
+        "offsetInTicks": 156000000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.40264148,
+        "lexical": "לי מה של מלווה מה הייתי שם",
+        "itn": "לי מה של מלווה מה הייתי שם",
+        "maskedITN": "לי מה של מלווה מה הייתי שם",
+        "display": "לי מה של מלווה, מה הייתי שם?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 167600000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.37523162,
+        "lexical": "כמה זמן",
+        "itn": "כמה זמן",
+        "maskedITN": "כמה זמן",
+        "display": "כמה זמן?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 188900000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.6043316,
+        "lexical": "רגע אני אבדוק לי איזשהו פעם",
+        "itn": "רגע אני אבדוק לי איזשהו פעם",
+        "maskedITN": "רגע אני אבדוק לי איזשהו פעם",
+        "display": "רגע אני אבדוק לי איזשהו פעם",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 209900000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.017940313,
+        "lexical": "לג",
+        "itn": "לג",
+        "maskedITN": "לג",
+        "display": "לג",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 212400000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.7425932,
+        "lexical": "אוקיי",
+        "itn": "אוקיי",
+        "maskedITN": "אוקיי",
+        "display": "אוקיי?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 232300000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.8105552,
+        "lexical": "רגע",
+        "itn": "רגע",
+        "maskedITN": "רגע",
+        "display": "רגע.",
+        "sentiment": {
+            "positive": 0.25,
+            "neutral": 0.61,
+            "negative": 0.14
+        },
+        "offsetInTicks": 246500000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.024267904,
+        "lexical": "תודה",
+        "itn": "תודה",
+        "maskedITN": "תודה",
+        "display": "תודה",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 253600000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.3378038,
+        "lexical": "קשה מצאתי",
+        "itn": "קשה מצאתי",
+        "maskedITN": "קשה מצאתי",
+        "display": "קשה מצאתי.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 266700000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.019100776,
+        "lexical": "למה",
+        "itn": "למה",
+        "maskedITN": "למה",
+        "display": "למה",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.99,
+            "negative": 0.0
+        },
+        "offsetInTicks": 274800000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.712887,
+        "lexical": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+        "itn": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+        "maskedITN": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו מהרגע שהתחברנו אליכם לא חיברתם אותו לא הצלקתם לחבר אותו יש לנו מסע יש את האינטרנט",
+        "display": "יש פה כתומת מסך עם סלקום שהוא בחיים לא חייבתם אותו. מהרגע שהתחברנו אליכם, לא חיברתם אותו, לא הצלקתם לחבר אותו. יש לנו מסע, יש את האינטרנט.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.99,
+            "negative": 0.0
+        },
+        "offsetInTicks": 292700000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.16087292,
+        "lexical": "אבל",
+        "itn": "אבל",
+        "maskedITN": "אבל",
+        "display": "אבל",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 297600000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.09957272,
+        "lexical": "כל הכבוד",
+        "itn": "כל הכבוד",
+        "maskedITN": "כל הכבוד",
+        "display": "כל הכבוד",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 332000000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.016942112,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן",
+        "sentiment": {
+            "positive": 0.09,
+            "neutral": 0.76,
+            "negative": 0.14
+        },
+        "offsetInTicks": 375200000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.75204796,
+        "lexical": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+        "itn": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+        "maskedITN": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון אבל גם היינו רואים מי נמצא בחוץ מי הגיע ברגע שהתחברנו לעונג טלקום אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס אבל המסך נשאר כבי מהרגע שהתחברנו אליכם לא הצלחתם לחברות",
+        "display": "ואנחנו היינו פותחים את האינטרקום דרך המקש אפס בטלפון, אבל גם היינו רואים מי נמצא בחוץ. מי הגיע? ברגע שהתחברנו לעונג טלקום, אתם קיבלתם את הטלפון ואנחנו פותחים את הדלת עם המכה של אפס, אבל המסך נשאר כבי. מהרגע שהתחברנו אליכם, לא הצלחתם לחברות.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 393100000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.011037602,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 402800000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.025988959,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 412800000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.028357754,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 430800000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.039377056,
+        "lexical": "כתוב",
+        "itn": "כתוב",
+        "maskedITN": "כתוב",
+        "display": "כתוב.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 473000000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.7176014,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 485500000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.020485124,
+        "lexical": "שלום",
+        "itn": "שלום",
+        "maskedITN": "שלום",
+        "display": "שלום",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 490400000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.04337264,
+        "lexical": "קט",
+        "itn": "קט",
+        "maskedITN": "קט",
+        "display": "קט.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 528700000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.021536602,
+        "lexical": "לא",
+        "itn": "לא",
+        "maskedITN": "לא",
+        "display": "לא",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 543200000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.010999967,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 572000000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.68937,
+        "lexical": "את רוצה את אינטרנט של הממשק או של הלקח",
+        "itn": "את רוצה את אינטרנט של הממשק או של הלקח",
+        "maskedITN": "את רוצה את אינטרנט של הממשק או של הלקח",
+        "display": "את רוצה את אינטרנט של הממשק או של הלקח?",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.95,
+            "negative": 0.04
+        },
+        "offsetInTicks": 627700000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.7296699,
+        "lexical": "של הממשק",
+        "itn": "של הממשק",
+        "maskedITN": "של הממשק",
+        "display": "של הממשק.",
+        "sentiment": {
+            "positive": 0.23,
+            "neutral": 0.7,
+            "negative": 0.07
+        },
+        "offsetInTicks": 645900000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.01679065,
+        "lexical": "נכון",
+        "itn": "נכון",
+        "maskedITN": "נכון",
+        "display": "נכון",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 671200000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.844118,
+        "lexical": "עשר נקודה אפס",
+        "itn": "עשר נקודה אפס",
+        "maskedITN": "עשר נקודה אפס",
+        "display": "עשר נקודה אפס",
+        "sentiment": {
+            "positive": 0.01,
+            "neutral": 0.0,
+            "negative": 0.99
+        },
+        "offsetInTicks": 698700000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.75226575,
+        "lexical": "כן",
+        "itn": "כן",
+        "maskedITN": "כן",
+        "display": "כן.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 714700000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.7106658,
+        "lexical": "נקודה אפס",
+        "itn": "נקודה אפס",
+        "maskedITN": "נקודה אפס",
+        "display": "נקודה אפס",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 733100000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.6581242,
+        "lexical": "נקודה אפס כן",
+        "itn": "נקודה אפס כן",
+        "maskedITN": " אפס כן",
+        "display": ". אפס כן?",
+        "sentiment": {
+            "positive": 0.12,
+            "neutral": 0.86,
+            "negative": 0.02
+        },
+        "offsetInTicks": 748000000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.67474574,
+        "lexical": "נקודה תשעים נקודה",
+        "itn": "נקודה 90 נקודה",
+        "maskedITN": " 90",
+        "display": ". 90.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.91,
+            "negative": 0.09
+        },
+        "offsetInTicks": 755900000.0,
+        "speakerChannel": "business-client"
+    },
+    {
+        "confidence": 0.69558156,
+        "lexical": "או קי",
+        "itn": "או קי",
+        "maskedITN": "או קי",
+        "display": "או קי.",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 785500000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.037725948,
+        "lexical": "נכון",
+        "itn": "נכון",
+        "maskedITN": "נכון",
+        "display": "נכון",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 802400000.0,
+        "speakerChannel": "service-person"
+    },
+    {
+        "confidence": 0.024318596,
+        "lexical": "שלום",
+        "itn": "שלום",
+        "maskedITN": "שלום",
+        "display": "שלום",
+        "sentiment": {
+            "positive": 0.0,
+            "neutral": 0.0,
+            "negative": 0.0
+        },
+        "offsetInTicks": 805200000.0,
+        "speakerChannel": "business-client"
+    }
 ]
