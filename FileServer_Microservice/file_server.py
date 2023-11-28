@@ -46,20 +46,24 @@ def start_transcription_job(filename):
         s3_client,
         conversation.audio_channel__service_person,
         bucket_name,
-        f"c0_service-person{filename}",
+        f"c0_service-person_{filename}",
     )
     upload_file_to_s3(
         s3_client,
         conversation.audio_channel__business_client,
         bucket_name,
-        f"c1_business-client{filename}",
+        f"c1_business-client_{filename}",
     )
     print("UPLOAD COMPLETED")
 
     # Generate presigned links for 2 audio URLs, and send them in the response
 
-    audio_url_service_person = generate_presigned_url(s3_client, bucket_name, filename)
-    audio_url_business_client = generate_presigned_url(s3_client, bucket_name, filename)
+    audio_url_service_person = generate_presigned_url(
+        s3_client, bucket_name, f"c0_service-person_{filename}"
+    )
+    audio_url_business_client = generate_presigned_url(
+        s3_client, bucket_name, f"c1_business-client_{filename}"
+    )
 
     response_data = {
         "conversationPart_servicePerson_url": audio_url_service_person,

@@ -1,6 +1,5 @@
 import boto3
 
-
 class S3Client:
     def __init__(self, bucket, key, secret):
         self.bucket = bucket

@@ -53,7 +53,7 @@ def user_config_from_args(usage: str) -> helper.Read_Only_Dict:
             f"Missing Speech region. Speech region is required unless --jsonInput is present.{linesep}{usage}"
         )
 
-    language_subscription_key = "11ba895011714240afcf431f8a420a48"
+    language_subscription_key = language_service_key
     # get_cmd_option("--languageKey")
     if language_subscription_key is None:
         raise RuntimeError(f"Missing Language subscription key.{linesep}{usage}")
