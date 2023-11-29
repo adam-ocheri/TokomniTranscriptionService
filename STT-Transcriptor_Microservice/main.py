@@ -1,13 +1,13 @@
 import requests
 import json
-from post_processing_utils import get_highest_scoring_phrases, save_transcription
+from post_processing_utils import get_highest_scoring_phrases, save_full_transcription
 from custom_transcription import run
 
 # from flask import Flask
 
 # ------------------------------------------------------------------------------------------
 #! perform request to file-server
-response = requests.get("http://localhost:5000/start_transcription_job/rec-test-01.wav")
+response = requests.get("http://localhost:5000/start_transcription_job/otr5.mp3")
 
 audio_file_service_person = response.json().get("conversationPart_servicePerson_url")
 audio_file_business_client = response.json().get("conversationPart_businessClient_url")
@@ -27,8 +27,13 @@ business_client_phrases = get_highest_scoring_phrases(
     transcription_data_business_client, "business-client"
 )
 
-save_transcription(service_person_phrases, "T_SP.txt")
-save_transcription(business_client_phrases, "T_BC.txt")
+full_conversation = service_person_phrases + business_client_phrases
+sorted_conversation = sorted(full_conversation, key=lambda x: x["offsetInTicks"])
+
+save_full_transcription(sorted_conversation, "Rec_05__Azure.txt")
+
+# save_transcription(service_person_phrases, "T_SP.txt")
+# save_transcription(business_client_phrases, "T_BC.txt")
 
 #! order sentences by "offsetInTicks"
 all_phrases: list

@@ -19,6 +19,14 @@ def get_highest_scoring_phrases(transcription_data, speaker_channel):
     return phrases
 
 
+def save_full_transcription(conversation, output_file_path):
+    text = ""
+    for phrase in conversation:
+        text += "\n\n" + phrase["speakerChannel"] + ":\n" + phrase["display"]
+    with open(output_file_path, "w", encoding="utf-8") as item:
+        item.write(text)
+
+
 def save_transcription(speaker_phrases_array_result, output_file_path):
     text = ""
     for phrase in speaker_phrases_array_result:

@@ -19,6 +19,7 @@ import user_config_helper
 
 # This should not change unless you switch to a new version of the Speech REST API.
 SPEECH_TRANSCRIPTION_PATH = "/speechtotext/v3.1/transcriptions"
+# SPEECH_TRANSCRIPTION_PATH = "transcript.openai.azure.com/"
 
 # These should not change unless you switch to a new version of the Cognitive Language REST API.
 SENTIMENT_ANALYSIS_PATH = "/language/:analyze-text"
